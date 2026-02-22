@@ -14,7 +14,7 @@ snippet of white wine list:
 
 
 
-Expectations and hypotheses:
+## Expectations and hypotheses:
 
 1. Wines with higher alcohol content are expected to have higher quality ratings.
 2. White wines are expected to have higher residual sugar levels than red wines.
@@ -23,7 +23,7 @@ Expectations and hypotheses:
 
 
 
-Descriptive statistics:
+## Descriptive statistics:
 
 <img width="697" height="234" alt="billede" src="https://github.com/user-attachments/assets/fa06a851-2815-436e-afdd-c87b1f9dd56d" />
 
@@ -108,11 +108,9 @@ Quality appears to have limited spread in both groups.
 
 
 
-Check for normally distribution:
+## Check for normally distribution:
 
 <img width="767" height="493" alt="billede" src="https://github.com/user-attachments/assets/ae15dba2-e1f4-4e1d-a92c-80f7b1625853" />
-
-Summary
 
 Looking at the chart, we can see that most of the wines in this group have an alcohol content between 9% and 11%. The single most common alcohol level is right around 9.5%, which is where the tallest blue bar sits.
 
@@ -122,8 +120,6 @@ While there are some stronger wines that reach up to 14% or 14.5%, they are much
 
 <img width="768" height="489" alt="billede" src="https://github.com/user-attachments/assets/215a9fda-8050-46a3-b1f3-13ff02ec5267" />
 
-Summary
-
 The vast majority of wines in this group have very low sugar levels. Most of the wines are clustered at the far left of the graph, with a massive peak between 1 and 5 grams of residual sugar. This tells us that most of the wines in this dataset are likely dry wines.
 
 As the sugar level increases, the number of wines drops off very quickly. By the time you get past 15 or 20 grams, there are almost no wines left, though there are a few rare "outliers" with much higher sugar levels
@@ -132,8 +128,6 @@ As the sugar level increases, the number of wines drops off very quickly. By the
 
 <img width="762" height="486" alt="billede" src="https://github.com/user-attachments/assets/ecc3e31a-713b-41fa-96ad-9c87018bfa37" />
 
-Summary
-
 The pH levels of these wines are very consistent and balanced. Most of the wines have a pH level between 3.1 and 3.4. Unlike the sugar levels, which had crazy high values (outliers), almost all of these wines stay within a very tight, predictable range.
 
 This "bell curve" shape tells us that the acidity in these wines is quite standard, with the vast majority sitting right in the middle around a pH of 3.2.
@@ -141,15 +135,13 @@ This "bell curve" shape tells us that the acidity in these wines is quite standa
 
 <img width="765" height="481" alt="billede" src="https://github.com/user-attachments/assets/bbf76b5f-ad6d-4543-827a-b8d66e4bfa1f" />
 
-Summary
-
 The vast majority of the wines are considered average to good quality. Most of the ratings are concentrated at 5, 6, and 7, with a score of 6 being the most common by a large margin. It is quite rare to find a wine that is rated as "poor" (3 or 4) or "excellent" (8 or 9). 
 
 
 
 
 
-Analysis of Wine Characteristics and Quality
+## Analysis of Wine Characteristics and Quality
 
 a. What does each diagram show?
 
@@ -184,7 +176,7 @@ For alcohol, there is usually a positive correlation. As alcohol levels increase
  <img width="758" height="500" alt="billede" src="https://github.com/user-attachments/assets/da274e78-349e-485e-b20d-bea4b1cbbf57" />
 
 
- pH Binning Analysis
+ ## pH Binning Analysis
 
 The five-bin subset with the highest density is the second or third bin, covering the 3.0 to 3.3 range, as that is where the most wines are clustered. The ten-bin subset provides more information because it reveals that the peak acidity is actually very specifically centered near 3.2. In the five-bin version, this detail is blurred into a larger, broader group. Using more bins allows for a more precise understanding of where the majority of the wines sit on the acidity scale and shows the true shape of the distribution.
 
@@ -207,17 +199,17 @@ Several other attributes are highly correlated with each other. Free sulfur diox
 
 
 
-Statistical Calculations and P-Value Analysis
+## Statistical Calculations and P-Value Analysis
 
 For the first hypothesis, which states that higher alcohol content is expected to lead to higher quality ratings, the Pearson correlation coefficient was calculated. The resulting correlation coefficient is 0.444. To test the significance of this relationship, the p-value was calculated and found to be less than 0.001. Since this p-value is significantly lower than the standard threshold of 0.05, the result is statistically significant. This confirms that there is a documented positive relationship between alcohol levels and wine quality scores in this dataset.
 
-For the second hypothesis, which states that white wines are expected to have higher residual sugar levels than red wines, a comparison of means and an independent t-test were performed. The mean residual sugar for white wine is 6.39 grams per liter, while the mean for red wine is 2.54 grams per liter. The difference between these averages is 3.85 grams per liter. The independent t-test resulted in a t-statistic of approximately -32.5 and a p-value of 1.2e-156, which is essentially zero. Because this p-value is far below 0.05, the null hypothesis is rejected. This provides mathematical proof that white wines in this sample contain significantly more residual sugar than red wines.
+For the second hypothesis, which states that white wines are expected to have higher residual sugar levels than red wines, a comparison of means and an independent t-test were performed. The mean residual sugar for white wine is 6.39 grams per liter, while the mean for red wine is 2.54 grams per liter. The difference between these averages is 3.85 grams per liter. The independent t-test resulted in a t-statistic of approximately -32.5 and a p-value of 1.2e-156, which is essentially zero. Because this p-value is far below 0.05, the null hypothesis is rejected. This provides mathematical proof that white wines in this sample contain significantly more residual sugar than red wines.  
 
 
 
 
 
-Summary and Reflection
+## Summary and Reflection
 
 The data analysis showed how chemical properties influence wine quality and how these properties differ between wine types. By using histograms and correlation matrices, the dataset was turned into clear trends. This process proved that statistical tests are necessary to confirm what we see in graphs.
 

@@ -19,9 +19,9 @@ snippet of white wine list:
 1. Wines with higher alcohol content are expected to have higher quality ratings.
 2. White wines are expected to have higher residual sugar levels than red wines.
 
-
-
-
+<br>
+<br>
+<br>
 
 ## Descriptive statistics:
 
@@ -31,10 +31,13 @@ snippet of white wine list:
 
 <img width="758" height="247" alt="billede" src="https://github.com/user-attachments/assets/1b896de4-f533-476e-bf0e-bf59b4808465" />
 
+<br>
+
 Comparison:
 
 <img width="730" height="208" alt="billede" src="https://github.com/user-attachments/assets/45012626-0508-4827-99b7-269dc45d6bfd" />
 
+<br>
 
 🔹The dataset consists of:
 
@@ -46,6 +49,7 @@ Comparison:
 
 White wines make up the majority of the observations.
 
+<br>
 
 🔹Residual Sugar:
 
@@ -55,6 +59,7 @@ White wines also show much greater variation (higher standard deviation), and th
 
 This confirms the expectation that white wines are generally sweeter than red wines.
 
+<br>
 
 🔹 Alcohol
 
@@ -62,6 +67,7 @@ White wines have a higher average alcohol content (10.59) compared to red wines 
 
 The distributions are relatively similar, and alcohol appears moderately symmetric compared to other variables.
 
+<br>
 
 🔹 Volatile Acidity
 
@@ -69,6 +75,7 @@ Red wines have a much higher average volatile acidity (0.53) than white wines (0
 
 This suggests structural chemical differences between the two wine types.
 
+<br>
 
 🔹 Sulfur Dioxide
 
@@ -84,11 +91,13 @@ White: 137.2
 
 This shows that white wines rely more heavily on preservatives.
 
+<br>
 
 🔹 Density
 
 White wines have slightly higher density on average, which is likely related to their higher sugar content.
 
+<br>
 
 🔹 pH
 

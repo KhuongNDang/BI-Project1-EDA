@@ -30,11 +30,13 @@ snippet of white wine list:
 <img width="758" height="247" alt="billede" src="https://github.com/user-attachments/assets/1b896de4-f533-476e-bf0e-bf59b4808465" />
 
 <br>
+<br>
 
 Comparison:
 
 <img width="730" height="208" alt="billede" src="https://github.com/user-attachments/assets/45012626-0508-4827-99b7-269dc45d6bfd" />
 
+<br>
 <br>
 
 🔹The dataset consists of:

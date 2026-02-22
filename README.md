@@ -10,9 +10,9 @@ snippet of white wine list:
 
 <img width="1037" height="232" alt="billede" src="https://github.com/user-attachments/assets/4c495bad-394d-4c09-8589-4441d60f4b50" />
 
-
-
-
+<br>
+<br>
+<br>
 
 ## Expectations and hypotheses:
 

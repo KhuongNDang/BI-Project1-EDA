@@ -1,5 +1,5 @@
 # BI-Project1-EDA
-
+<br>
 
 snippet of red wine list:
 
@@ -12,14 +12,12 @@ snippet of white wine list:
 
 <br>
 <br>
-<br>
 
 ## Expectations and hypotheses:
 
 1. Wines with higher alcohol content are expected to have higher quality ratings.
 2. White wines are expected to have higher residual sugar levels than red wines.
 
-<br>
 <br>
 <br>
 
@@ -112,10 +110,8 @@ However, the difference is small, and both datasets have similar medians (6).
 
 Quality appears to have limited spread in both groups.
 
-
-
-
-
+<br>
+<br>
 
 ## Check for normally distribution:
 
@@ -125,7 +121,7 @@ Looking at the chart, we can see that most of the wines in this group have an al
 
 While there are some stronger wines that reach up to 14% or 14.5%, they are much less common. Essentially, as the alcohol percentage goes up past 11%, the number of wines available in that category drops off significantly.
 
-
+<br>
 
 <img width="768" height="489" alt="billede" src="https://github.com/user-attachments/assets/215a9fda-8050-46a3-b1f3-13ff02ec5267" />
 
@@ -133,7 +129,7 @@ The vast majority of wines in this group have very low sugar levels. Most of the
 
 As the sugar level increases, the number of wines drops off very quickly. By the time you get past 15 or 20 grams, there are almost no wines left, though there are a few rare "outliers" with much higher sugar levels
 
-
+<br>
 
 <img width="762" height="486" alt="billede" src="https://github.com/user-attachments/assets/ecc3e31a-713b-41fa-96ad-9c87018bfa37" />
 
@@ -141,14 +137,14 @@ The pH levels of these wines are very consistent and balanced. Most of the wines
 
 This "bell curve" shape tells us that the acidity in these wines is quite standard, with the vast majority sitting right in the middle around a pH of 3.2.
 
+<br>
 
 <img width="765" height="481" alt="billede" src="https://github.com/user-attachments/assets/bbf76b5f-ad6d-4543-827a-b8d66e4bfa1f" />
 
 The vast majority of the wines are considered average to good quality. Most of the ratings are concentrated at 5, 6, and 7, with a score of 6 being the most common by a large margin. It is quite rare to find a wine that is rated as "poor" (3 or 4) or "excellent" (8 or 9). 
 
-
-
-
+<br>
+<br>
 
 ## Analysis of Wine Characteristics and Quality
 
@@ -181,23 +177,29 @@ For alcohol, there is usually a positive correlation. As alcohol levels increase
  5-bin:
  <img width="764" height="497" alt="billede" src="https://github.com/user-attachments/assets/494db417-088b-42a3-b93d-a1caef277de0" />
 
+ <br>
+
+
  10-bin:
  <img width="758" height="500" alt="billede" src="https://github.com/user-attachments/assets/da274e78-349e-485e-b20d-bea4b1cbbf57" />
 
+<br>
+<br>
 
  ## pH Binning Analysis
 
 The five-bin subset with the highest density is the second or third bin, covering the 3.0 to 3.3 range, as that is where the most wines are clustered. The ten-bin subset provides more information because it reveals that the peak acidity is actually very specifically centered near 3.2. In the five-bin version, this detail is blurred into a larger, broader group. Using more bins allows for a more precise understanding of where the majority of the wines sit on the acidity scale and shows the true shape of the distribution.
 
-
-
-
+<br>
+<br>
 
 <img width="763" height="483" alt="Skærmbillede 2026-02-22 173622" src="https://github.com/user-attachments/assets/418b284d-80f1-4647-8d77-9fe0fe1ee59d" />
 
 <img width="766" height="546" alt="Skærmbillede 2026-02-22 173646" src="https://github.com/user-attachments/assets/5a496068-528e-49b4-a694-79e2cc869250" />
 
 <img width="764" height="672" alt="Skærmbillede 2026-02-22 173945" src="https://github.com/user-attachments/assets/bfef70d9-0565-431c-b136-6a583113765b" />
+
+<br>
 
 
 The wine attribute with the biggest influence on quality is alcohol, as seen by the strongest positive correlation color in the quality row. Higher alcohol content generally relates to higher quality ratings. The attribute with the lowest influence is residual sugar or pH, as their squares are neutral in color, indicating almost no linear relationship with quality.
@@ -214,9 +216,8 @@ For the first hypothesis, which states that higher alcohol content is expected t
 
 For the second hypothesis, which states that white wines are expected to have higher residual sugar levels than red wines, a comparison of means and an independent t-test were performed. The mean residual sugar for white wine is 6.39 grams per liter, while the mean for red wine is 2.54 grams per liter. The difference between these averages is 3.85 grams per liter. The independent t-test resulted in a t-statistic of approximately -32.5 and a p-value of 1.2e-156, which is essentially zero. Because this p-value is far below 0.05, the null hypothesis is rejected. This provides mathematical proof that white wines in this sample contain significantly more residual sugar than red wines.  
 
-
-
-
+<br>
+<br>
 
 ## Summary and Reflection
 
